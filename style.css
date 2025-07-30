@@ -1,0 +1,104 @@
+
+    body {
+      font-family: Montserrat;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+    }
+
+    .top-bar {
+      font-size: 12px;
+      font-weight: 400;
+      font-family: Montserrat
+    }
+
+    .orange-text {
+      color: orange;
+      font-weight: 400;
+      text-align: center;
+      margin: 10px 0;
+      font-size: 20px;
+    }
+
+    .blue-heading {
+      color: #007bff;
+      font-size: 56px;
+      text-transform: uppercase;
+      font-family: 'Bebas Neue';
+      margin-bottom: 20px;
+    }
+
+    .btn-orange {
+      background-color: #E07127;
+      color: white;
+      border: none;
+    }
+
+    .btn-outline-orange {
+      border: 1px solid orange;
+      color: orange;
+    }
+
+    .highlight-section {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 50px;
+      font-family: 'Bebas Neue';
+      font-size: 60px;
+      line-height: 110.00000000000001%;
+      letter-spacing: 5%;
+    }
+    
+    .bg-gradient {
+  background: linear-gradient(to bottom, #ffffff, #e1eaf5);
+}
+
+.slider-track {
+  animation: scrollSlider 20s linear infinite;
+  white-space: nowrap;
+}
+
+.testimonial-card {
+  min-width: 200px;
+  max-width: 250px;
+  flex: 0 0 auto;
+  text-align: center;
+  height: 150px;
+
+    }
+
+    
+    
+    @keyframes scrollSlider {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+      }
+      
+      }
+        .footer {
+      background-color: blue;
+      color: white;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .footer a:hover {
+      text-decoration: underline;
+    }
+
+    .orange-btn {
+      background-color: #f58220;
+      color: white;
+      border: none;
+    }
+
+    .orange-btn:hover {
+      background-color: #e57210;
+      }
